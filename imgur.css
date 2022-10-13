@@ -1,0 +1,302 @@
+.top_section{
+    width: 102%;
+    height: 400px;
+    background-image: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png");
+    background-size: cover;
+    margin: -10px;
+    
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* padding: 0px; */
+    background: transparent;
+}
+.navbar >div{
+    border-radius: 10px;
+    width: 30px;
+}
+/* .navbar>div{
+    width: 15%;
+    height: 30px;
+    border: 2px solid red;
+
+} */
+.navbar .right{
+    width: 8%;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+.navbar .search_bar{
+    width: 40%;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+.navbar .search_bar input{
+    width: 98%;
+    height: 95%;
+    border: 3px;
+    background: hsla(0,0%,100%,.25);
+    border: 1px solid transparent;
+    outline: none;
+    font-size: 16px;
+    color:white;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.search_bar img{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.tag_line{
+    color: white;
+    margin: auto;
+}
+
+
+ .navbar .left{
+    width: 10%;
+    height: 40px;
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px; 
+    border-radius: 3px; 
+    
+
+} 
+.navbar .middle{
+    background-color: #1bb76e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.left>.imgur_logo{
+    background-color: transparent;
+}
+.left>.space{
+    background-color: transparent;
+}
+.navbar .left>p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar .left :hover{
+     cursor: pointer;
+}
+.navbar .one{
+    background: #6432f9;
+    box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.one>div{
+    height: 60%;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* background-color: #2e3035; */
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.navbar .two{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.two>div{
+    height: 60%;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* background-color: #2e3035; */
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.navbar .three{
+    background-color: #1bb76e;
+     box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.three>div{
+    height: 60%;
+    font-family: Proxima Nova Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* background-color: #2e3035; */
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.explore_tags{
+    width: 90%;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+.explore_tags div{
+ width: 15%;
+ height: 90%;
+ /* border: 2px solid yellow; */
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 20%), url(https://i.imgur.com/Rq2O8Ga.jpg);
+ background-size: cover;
+}
+.explore_tags div div{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 62%;
+    background:#56d298;
+   
+}
+.grey{
+    color:blanchedalmond;
+}
+
+#bottom_section{
+    /* width: 100%; */
+    margin: -1%;
+    /* height: 500px; */
+    background-color: #2e3035;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+    /* gap: 20px; */
+}
+
+
+video{
+    /* width: 100%;
+    /* height: 100%; */ 
+    display: inline-block;
+    object-fit: contain;
+    width: 85.3%;
+}
+.Post-item-title {
+    font-weight: 600;
+    line-height: 1.14;
+    font-size: 14px;
+    text-align: left;
+    /* color: #fff; */
+    display: inline-block;
+    max-height: 45px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.Post-item-title-wrap {
+    background: #474a51;
+    padding-top: 10px;
+    /* color: #fff; */
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    transition: background .2s;
+    bottom: 0;
+    left: 0;
+}
+.Post-item-info, .PostInfo {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+.Post-item-info {
+    justify-content: space-between;
+    /* color: hsla(0,0%,100%,.6); */
+    min-height: 8px;
+    padding: 0.5rem 1rem;
+    /* color: #b4b9c2; */
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.Post-item-title-wrap {
+    background: #474a51;
+    padding-top: 10px;
+    /* color: #fff; */
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    transition: background .2s;
+    bottom: 0;
+    left: 0;
+}
+.Post-item {
+    height: 100%;
+    display: block;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 145px;
+    position: relative;
+    /* color: #fff; */
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+    background-color: #2e3035;
+    transition: box-shadow .25s;
+    -webkit-transition: box-shadow .25s;
+}
+.Media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+Post-item-vote {
+    line-height: 0;
+}
+.Post-item-stat {
+    z-index: 1;
+    opacity: .65;
+}
+.Vote {
+    position: relative;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.uScaleTransition {
+    transition: opacity .25s,transform .25s;
+    -webkit-transition: opacity .25s,transform .25s;
+}
+.likes{
+    background-color: gray;
+    width: 85.5%;
+    margin-top: -1%;
+    color: white;
+
+}
+img{
+    width: 85.5%;
+}
